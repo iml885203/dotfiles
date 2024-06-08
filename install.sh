@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # zsh setup
-cat .antigenrc > $HOMT/.antigenrc
+curl -L git.io/antigen > $HOME/antigen.zsh
+cat .antigenrc > $HOME/.antigenrc
 cat .zshrc > $HOME/.zshrc
 cat .p10k.zsh > $HOME/.p10k.zsh
 
